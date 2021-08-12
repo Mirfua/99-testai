@@ -32,7 +32,7 @@ for (let i = 0; i < data.length; i++){
     for(let j = 0; j < data[i].marks.length; j++)
     if(data[i].marks[j] == maz){
         console.log("Mokiniai kurie turi prasciausia pazymi:", data[i].name, maz);
-        break;
+//        break;
     }
 }
 
